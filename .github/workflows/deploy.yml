@@ -19,11 +19,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
-          node-version: '22'
-          cache: 'npm'
+          node-version: '20'
+      
+      - name: Clear npm cache
+        run: npm cache clean --force
       
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm install
       
       - name: Build project
         run: npm run build
@@ -33,4 +35,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          force_orphan: true
           cname: false

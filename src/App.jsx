@@ -20,7 +20,7 @@ export default function App(){
   }, [theme])
 
   return (
-    <Router>
+    <Router basename="/jarayonlar-tatqiqoti/">
       <div className={`app ${theme === 'dark' ? 'dark-theme' : ''}`}>
         <header className="topbar">
           <div className="brand">

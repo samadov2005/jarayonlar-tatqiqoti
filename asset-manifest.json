@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jarayonlar-tatqiqoti/static/css/main.89308b04.css",
+    "main.js": "/jarayonlar-tatqiqoti/static/js/main.f088e7ed.js",
+    "index.html": "/jarayonlar-tatqiqoti/index.html",
+    "main.89308b04.css.map": "/jarayonlar-tatqiqoti/static/css/main.89308b04.css.map",
+    "main.f088e7ed.js.map": "/jarayonlar-tatqiqoti/static/js/main.f088e7ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89308b04.css",
+    "static/js/main.f088e7ed.js"
+  ]
+}
